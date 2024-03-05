@@ -1,0 +1,39 @@
+Zadatak 9 - Baza podataka OBEZBEĐENJE
+
+Potrebno je projektovati relacionu bazu podataka koja će pamtiti sve informacije neophodne za 
+	rad kompanije za fizičko/elektronsko obezbeđenje objekata. 
+Zaposleni u kompaniji mogu biti tehnička lica, lica koja se bave fizičkim obezbeđenjem ili menadzeri. 
+Za sve zaposlene se pamti matični broj, ime i prezime, datum rođenja i pol. 
+Za tehnička lica se pamti stručna sprema i oblast tehnike za koju je to lice specijalizovano. 
+Za radnike koji rade na fizičkom obezbeđenju se pamti naziv borilačke veštine kojom se bavi. 
+Za svakog menadžera se pamti koje gradove pokriva. 
+Radnici na fizičkom obezbeđenju su organizovani u četvoročlane ekipe. 
+Jedan član ekipe je vođa ekipe. 
+Svakoj ekipi je dodeljen redni broj.
+Svaka ekipa na terenu duži vozilo. 
+Vozila se identifikuju svojom registarskom oznakom. 
+U bazi se pamti istorija koja ekipa je u kom periodu dužila koje vozilo. 
+Svaka ekipa je zadužena za maksimalno 10 objekata koje firma obezbeđuje, a koje terenske ekipe obilaze tokom smene. 
+Za svaku smenu se pamti ID, vreme početka i vreme kraja, ekipa koja je radila tu smenu i koji objekti su obilaženi tokom te smene. 
+U bazi se pamti istorija koja ekipa je radila koju smenu i kojih 10 objekata je obilazila. 
+Za vozila se pamti registarska oznaka, boja, tip, model, proizvođač. 
+Kompanija se bavi obezbeđivanjem objekata. 
+Za svaki objekat se pamti adresa, tip objekta, površina. 
+Uz svaki objekat je vezano više kontakt telefona koje je potrebno kontaktirati u slučaju intervencije. 
+U svakom od obezbeđivanih objekata postoji instaliran alarmni sistem.
+Za alarmne sisteme se pamti proizvođač, godina proizvodnje. 
+Alarmni sistemi mogu funkcionisati po principu detekcije toplotnog odraza, ultrazvučni i detekcije pokreta. 
+Za ultrazvučne senzore se pamti opseg frekvencija koje detektuje, 
+	za detektore pokreta se pamti osetljivost (težina koju detektuje), 
+	a za detektore toplotnog odraza horizontalna i vertikalna rezolucija IC kamere. 
+Za svaki instalirani alarmni sistem se pamti datum instalacije. 
+Takođe, za alarmne sisteme se pamti koje tehničko lice je zaduženo za održavanje. 
+Kako bi bila dostupna istorija održavanja pamte se početni i krajnji datum kada je neko tehničko lice bilo zaduženo 
+	za održavanje nekog alarmnog sistema. 
+Radi praćenja rada terenskih ekipa svaka intervencija se evidentira. 
+Pamti se koja ekipa je imala intervenciju u kom objektu. 
+Za intervencije se pamti datum i vreme, kao i opis tipa intervencije. 
+Kompanija u pojedinim gradovima ima regionalne centre. 
+Za svakog menadžera se pamti za koji reginalni centar je zadužen. 
+Za svaki regionalni centar se pamti adresa, brojevi telefona i imena gradova koje taj centar pokriva. 
+Takođe, za svako vozilo koje koriste terenske ekipe se zna na koji regionalni centar je registrovano.

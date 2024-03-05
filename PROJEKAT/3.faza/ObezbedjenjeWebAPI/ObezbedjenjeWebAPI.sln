@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObezbedjenjeWebAPI", "ObezbedjenjeWebAPI\ObezbedjenjeWebAPI.csproj", "{AE955CAD-BB23-4EDB-AF59-68574969D25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObezbedjenjeClassLibrary", "ObezbedjenjeClassLibrary\ObezbedjenjeClassLibrary.csproj", "{814FF2FA-070C-4082-8F6C-877D7D959886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE955CAD-BB23-4EDB-AF59-68574969D25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE955CAD-BB23-4EDB-AF59-68574969D25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE955CAD-BB23-4EDB-AF59-68574969D25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE955CAD-BB23-4EDB-AF59-68574969D25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814FF2FA-070C-4082-8F6C-877D7D959886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814FF2FA-070C-4082-8F6C-877D7D959886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814FF2FA-070C-4082-8F6C-877D7D959886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814FF2FA-070C-4082-8F6C-877D7D959886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23B2914B-BD84-4606-8F98-FF22F06399D7}
+	EndGlobalSection
+EndGlobal
